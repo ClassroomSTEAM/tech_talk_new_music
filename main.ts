@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
     music.setVolume(loudness)
 })
 input.onButtonPressed(Button.AB, function () {
-    music.startMelody(music.builtInMelody(Melodies.Birthday), MelodyOptions.Once)
+    music.playMelody("C D E F G A B C5 ", 120)
 })
 input.onButtonPressed(Button.B, function () {
     loudness += -10
